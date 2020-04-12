@@ -12,8 +12,8 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import cross_val_score
 
 scaler = StandardScaler()
-train_set= pd.read_csv("train.csv",sep = ',',index_col = 0)
-test_set= pd.read_csv("testX.csv",sep = ',',index_col = 0)
+train_set= pd.read_csv("/home/mykaggle/train.csv",sep = ',',index_col = 0)
+test_set= pd.read_csv("/home/mykaggle/testX.csv",sep = ',',index_col = 0)
 print(test_set)
 #copy a new train set to analysis
 temp_train = train_set[:]
